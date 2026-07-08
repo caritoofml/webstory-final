@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Escuchamos lo mismo en Latinoamérica?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="song-progress" aria-hidden="true">
+    <span class="song-time current">0:00</span>
+    <div class="song-track"><div class="song-fill"></div><div class="song-knob"></div></div>
+    <span class="song-time total">4:20</span>
+  </div>
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#slide01">Contexto</a>
+      <a href="#slide02">Muestra</a>
+      <a href="#slide03">Artistas</a>
+      <a href="#slide04">Chile</a>
+      <a href="#slide05">Repeat</a>
+      <a href="#slide06">Mapa</a>
+      <a href="#slide07">Hallazgos</a>
+      <a href="#slide08">Cierre</a>
+      <a href="#creditos">Créditos</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Spotify Charts · Latinoamérica · 2025–2026</p>
+      <h1>¿Escuchamos lo mismo en Latinoamérica?</h1>
+      <p class="bajada">
+        Un recorrido por Spotify Charts para entender qué escenas nacionales pesan en la escucha regional,
+        qué artistas cruzan fronteras y qué lugar ocupa Chile dentro del mapa sonoro latinoamericano.
+      </p>
+      <a class="btn" href="#slide01"><span>▶</span> Comenzar recorrido</a>
+    </section>
+  </header>
+
+  <div class="floating-notes" aria-hidden="true">
+    <span>♪</span><span>♫</span><span>✦</span><span>♪</span><span>♫</span>
+  </div>
+
+  <main>
+    <section class="section intro story-panel" id="slide01" data-big="01">
+      <div class="section-number">01</div>
+      <div class="text-block">
+        <p class="spotify-label">Now playing</p>
+        <h2>LA BANDA SONORA LATINOAMERICANA</h2>
+        <p>
+          Abrir Spotify puede dar la impresión de que todos escuchamos lo mismo. Las canciones virales se repiten,
+          los artistas colaboran entre países y los rankings parecen moverse al ritmo de una misma industria musical.
+          Un hit nace en una ciudad, se vuelve tendencia en redes sociales y, en pocos días, puede aparecer en los
+          audífonos de millones de personas en distintas partes de Latinoamérica.
+        </p>
+        <p>
+          Pero cuando se observan con más detención los datos de Spotify Charts, la historia se vuelve más interesante.
+        </p>
+      </div>
+    </section>
+
+    <section class="remix-slide story-panel remix-immersive" id="remix-slide" aria-label="Remix Latinoamérica" data-big="REMIX">
+      <div class="remix-frame">
+        <img src="assets/remix.jpg" alt="Remix Latinoamérica" />
+      </div>
+      <div class="remix-caption remix-caption-card">
+        <strong>Remix Latinoamérica</strong>
+        <span>Una playlist. Cuatro países. Seis meses de música.</span>
+      </div>
+    </section>
+
+    <section class="section dark-section story-panel" id="slide02" data-big="02">
+      <div class="section-number">02</div>
+      <div class="text-block">
+        <p class="spotify-label">Dataset</p>
+        <h2>RADIO LATINO</h2>
+        <p>
+          Para responder esa pregunta, esta webstory analiza los rankings de Spotify Charts de cuatro países
+          latinoamericanos: Chile, Argentina, Colombia y México.
+        </p>
+        <p>
+          La muestra reúne seis meses de datos, entre noviembre de 2025 y abril de 2026, y permite observar qué
+          artistas aparecen, de dónde vienen y qué canciones logran mantenerse en los rankings.
+        </p>
+        <p>
+          Más que una lista de éxitos, estos datos funcionan como una playlist regional: muestran qué sonidos cruzan
+          fronteras, qué escenas locales tienen más fuerza y qué países escuchan desde un ritmo propio.
+        </p>
+      </div>
+    </section>
+
+    <section class="section visual-section story-panel" id="slide03" data-big="03">
+      <div class="section-number">03</div>
+      <div class="text-block">
+        <p class="spotify-label">Top artists</p>
+        <h2>¿QUIÉN PONE LA MÚSICA?</h2>
+        <div class="soundwave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <p>
+          Algunos artistas aparecen una vez. Otros cruzan países completos.
+        </p>
+        <p>
+          Son los nombres que terminan sonando en más de una playlist nacional y ayudan a conectar la escucha regional.
+        </p>
+      </div>
+
+      <div class="iframe-card grafico-artistas-card">
+        <iframe src="grafico_artistas_regionales.html" title="Gráfico de artistas con mayor presencia regional" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="section chile-section story-panel chile-feature" id="slide04" data-big="04">
+      <div class="section-number">04</div>
+      <div class="chile-editorial">
+        <div class="text-block">
+          <p class="spotify-label">Playlist Chile</p>
+          <h2>ÉXITOS CHILE</h2>
+          <p>
+            Chile combina canciones locales, artistas latinoamericanos y fenómenos internacionales. Su ranking muestra
+            una escucha atravesada por tendencias regionales, pero también por nombres que logran instalarse dentro
+            del consumo nacional.
+          </p>
+        </div>
+
+        <figure class="side-image-card chile-cover">
+          <img src="assets/chile.jpg" alt="Imagen de artistas destacados en Chile" />
+        </figure>
+
+        <div class="chile-note">
+          <span>LOCAL</span>
+          <span>REGIONAL</span>
+          <span>GLOBAL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section repeat-section story-panel" id="slide05" data-big="05">
+      <div class="section-number">05</div>
+      <div class="text-block">
+        <p class="spotify-label">Repeat mode</p>
+        <h2>EN REPEAT</h2>
+        <div class="soundwave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <p>No todas las canciones tienen el mismo recorrido.</p>
+        <p>
+          Algunas entran al ranking y desaparecen rápido. Otras se quedan durante semanas, se repiten en la rutina
+          diaria y se convierten en parte del paisaje musical de cada país.
+        </p>
+        <p>
+          Las canciones con más semanas en Spotify Charts muestran algo más profundo que una moda pasajera: revelan
+          qué sonidos lograron permanecer.
+        </p>
+        <p>
+          Porque llegar al ranking importa, pero quedarse ahí cuenta otra historia.
+        </p>
+      </div>
+
+      <div class="iframe-card grafico-repeat-card">
+        <iframe src="grafico_en_repeat.html" title="Gráfico de canciones con más semanas en Spotify Charts" loading="lazy" scrolling="no"></iframe>
+      </div>
+    </section>
+
+    <section class="section visual-section story-panel final-map" id="slide06" data-big="06">
+      <div class="section-number">06</div>
+      <div class="text-block">
+        <p class="spotify-label">Mapa de origen</p>
+        <h2>¿DE DÓNDE VIENE LA MÚSICA QUE ESCUCHAMOS?</h2>
+        <div class="soundwave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <p>
+          Después de mirar artistas, países y canciones que permanecen, aparece la radiografía completa:
+          la música circula, pero no llega con la misma fuerza a todos lados.
+        </p>
+        <p>
+          El origen de los artistas muestra cuánto espacio ocupan las escenas nacionales dentro de cada ranking y
+          cuánto peso tienen los sonidos que vienen desde otros países de Latinoamérica o del mercado internacional.
+        </p>
+      </div>
+
+      <div class="iframe-card grafico-origen-card">
+        <iframe src="grafico_origen_musica.html" title="Gráfico del origen de la música que escuchamos" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="section cards-section story-panel" id="slide07" data-big="07">
+      <div class="section-number">07</div>
+      <div class="text-block">
+        <p class="spotify-label">Cada país, su playlist</p>
+        <h2>LAS PLAYLIST SUENAN DISTINTO</h2>
+        <p>
+          El gráfico muestra que la circulación musical latinoamericana está conectada, pero no de manera pareja.
+          Algunos países tienen una presencia nacional muy marcada en sus propios rankings, mientras otros aparecen
+          más mezclados con sonidos de distintas procedencias.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card country-card">
+          <span class="card-stat">87,8%</span>
+          <h3>México</h3>
+          <p>
+            México destaca por el alto peso de artistas mexicanos dentro de su propio chart. En la muestra,
+            aparece como el mercado con mayor presencia nacional.
+          </p>
+        </article>
+
+        <article class="card country-card">
+          <span class="card-stat">65,8%</span>
+          <h3>Colombia</h3>
+          <p>
+            Colombia también presenta una escena local fuerte. Sus artistas ocupan una parte importante de
+            las escuchas analizadas, aunque conviven con presencia regional.
+          </p>
+        </article>
+
+        <article class="card country-card">
+          <span class="card-stat">Mix</span>
+          <h3>Chile y Argentina</h3>
+          <p>
+            Chile y Argentina muestran una escucha más repartida. Sus charts combinan artistas locales con
+            figuras de otros países latinoamericanos.
+          </p>
+        </article>
+
+        <article class="card country-card">
+          <span class="card-stat">Transversal</span>
+          <h3>Puerto Rico</h3>
+          <p>
+            Puerto Rico aparece como una presencia transversal. Su peso no se limita a un solo mercado, sino
+            que cruza distintos países dentro de la muestra.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cierre story-panel final-scene" id="slide08" data-big="08">
+      <div class="section-number">08</div>
+      <div class="text-block">
+        <p class="spotify-label">Cierre</p>
+        <h2>THIS IS LATINOAMÉRICA</h2>
+        <div class="soundwave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <p>
+          Al final del recorrido, los datos muestran una respuesta más compleja de lo que parecía al comienzo.
+        </p>
+        <p>
+          Sí, Latinoamérica comparte canciones, artistas y tendencias. Spotify conecta a la región bajo una misma
+          plataforma y permite que ciertos hits viajen rápidamente entre países.
+        </p>
+        <p>
+          Pero los rankings también muestran diferencias. Chile, Argentina, Colombia y México no escuchan de manera
+          idéntica. Cada país tiene sus propias escenas, sus propios referentes y sus propias formas de transformar
+          una canción en éxito.
+        </p>
+        <p class="closing-line">La banda sonora latinoamericana no es una sola playlist.</p>
+        <p>
+          Es una mezcla de muchas listas sonando al mismo tiempo: algunas compartidas, otras locales, algunas pasajeras
+          y otras en repeat.
+        </p>
+
+        <div class="playlist-close">
+          <div><span class="playlist-dot"></span><strong>This Is Latinoamérica</strong></div>
+          <small>Chile · Argentina · Colombia · México</small>
+        </div>
+
+        <p class="last-line">
+          Cada país escribe su propia banda sonora.
+        </p>
+
+        <a class="volver-escuchar-btn" href="#inicio">↺ Escuchar desde el inicio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="playlist-footer" id="creditos">
+    <div class="footer-inner">
+      <p class="footer-kicker">🎵 Playlist terminada</p>
+      <h2>Gracias por escuchar.</h2>
+      <p class="footer-intro">
+        Gracias por recorrer la banda sonora latinoamericana.
+      </p>
+
+      <div class="footer-grid">
+        <div class="footer-item">
+          <span>Webstory</span>
+          <strong>¿Escuchamos lo mismo en Latinoamérica?</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Autora</span>
+          <strong>Carol Mardones</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Curso</span>
+          <strong>Narración Gráfica de No Ficción</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Periodo</span>
+          <strong>Primer Semestre · 2026</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Datos</span>
+          <strong>Spotify Charts · Chile · Argentina · Colombia · México</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Repositorio</span>
+          <a href="https://github.com/jvieu/Repo_Proyecto_Equipo" target="_blank" rel="noopener">
+            github.com/jvieu/Repo_Proyecto_Equipo
+          </a>
+        </div>
+      </div>
+
+      <a class="footer-replay" href="#inicio">↺ Escuchar desde el inicio</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <aside class="chapter-dots" aria-label="Progreso por capítulos">
+    <a href="#slide01" data-dot="01"></a>
+    <a href="#slide02" data-dot="02"></a>
+    <a href="#slide03" data-dot="03"></a>
+    <a href="#slide04" data-dot="04"></a>
+    <a href="#slide05" data-dot="05"></a>
+    <a href="#slide06" data-dot="06"></a>
+    <a href="#slide07" data-dot="07"></a>
+    <a href="#slide08" data-dot="08"></a>
+  </aside>
+
+  <aside class="mini-player" aria-label="Estado del recorrido">
+    <div class="player-cover">♪</div>
+    <div class="player-text">
+      <strong id="playerTitle">Spotify Charts</strong>
+      <span id="playerSub">Latinoamérica · 2025–2026</span>
+    </div>
+    <div class="player-bars" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </aside>
+
+</body>
+</html>
